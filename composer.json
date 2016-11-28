@@ -1,29 +1,19 @@
-{
-    "name": "webforce3/w",
-    "description": "Framework pédagogique de la WebForce3",
-    "version": "1.0.6",
+xx{
+    "name": "t-chat-w",
+    "description": "La version W du projet Tchat",
+    "version": "1.0.0",
     "minimum-stability": "dev",
     "license": "MIT",
     "prefer-stable": true,
     "authors": [
         {
-            "name": "Axel Wargnier",
-            "email": "axel@axessweb.fr",
+            "name": "GVallet",
+            "email": "gvalletfr@gmail.com",
             "role": "Lead Developer"
-        },
-        {
-            "name": "Matthieu Mota",
-            "role": "Developer"
-        },
-        {
-            "name": "Guillaume Sylvestre",
-            "email": "gsylvestre@gmail.com",
-            "role": "Initial Developer"
         }
+
     ],
-    "support": {
-        "doc": "http://axessweb.github.io/W/"
-    },
+
     "require": {
         "altorouter/altorouter": "^1.2",
         "league/plates": "^3.1",
@@ -32,16 +22,11 @@
         "league/url": "^3.3",
         "phpmailer/phpmailer": "^5.2"
     },
+
     "autoload": {
         "psr-4": {
             "W\\": "W/",
             "": "app/"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/AxessWeb/W"
-        }
-    ]
+    }
 }
